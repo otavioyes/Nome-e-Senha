@@ -128,9 +128,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="RegistrandoApp.h" />
     <ClInclude Include="NomeEsenha.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Aplicativo.cpp" />
+    <ClCompile Include="RegistrandoApp.cpp" />
     <ClCompile Include="NomeEsenha.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

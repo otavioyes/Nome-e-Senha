@@ -18,9 +18,18 @@
     <ClInclude Include="NomeEsenha.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="RegistrandoApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="NomeEsenha.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegistrandoApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Aplicativo.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
