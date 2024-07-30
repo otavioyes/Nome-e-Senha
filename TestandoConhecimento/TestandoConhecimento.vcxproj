@@ -128,11 +128,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CadastrandoDados.h" />
     <ClInclude Include="RegistrandoApp.h" />
     <ClInclude Include="NomeEsenha.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Aplicativo.cpp" />
+    <ClCompile Include="CadastrandoDados.cpp" />
     <ClCompile Include="RegistrandoApp.cpp" />
     <ClCompile Include="NomeEsenha.cpp" />
   </ItemGroup>

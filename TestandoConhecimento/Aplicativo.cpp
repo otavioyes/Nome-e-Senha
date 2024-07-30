@@ -7,6 +7,16 @@ int main()
 	//Objeto 
 	NomeEsenha app;
 
+	std::string nome, senha;
+
+
+	std::cout << "Nome do App: ";
+	std::getline(std::cin, nome);
+	std::cout << (app.getNomeApp());
+
+	std::cout << "Digite a senha: ";
+	std::getline(std::cin, senha);
+
 	//Cria o objeto RegistandoApp para manipular dados
 	RegistrandoApp registrador;
 
