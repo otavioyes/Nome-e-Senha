@@ -18,6 +18,7 @@ int main()
 
 	NomeEsenha app(nome, senha);
 
+	//Aqui o caminho para o arquivo PRECISA ser igual para o metodo salvaDados e carregaDados.
 	registrador.salvaDados("dadosApp.txt" , app);
 
 	registrador.carregaDados("dadosApp.txt");
