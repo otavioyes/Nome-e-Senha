@@ -21,9 +21,6 @@
     <ClInclude Include="RegistrandoApp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CadastrandoDados.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="NomeEsenha.cpp">
@@ -33,9 +30,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Aplicativo.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="CadastrandoDados.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -14,11 +14,10 @@ private:
 
 public:
 	//Armazena nome e senha do App em aruivo txt
-	void salvaNomeDoApp(const std::string nomeAppTxt, const NomeEsenha& nomeEsenha);
-	void salvaSenhaDoApp(const std::string senhaAppTxt, const NomeEsenha& nomeEsenha);
+	void salvaDados(const std::string& appTxt, const NomeEsenha& nomeEsenha);
 
 	//Carrega nome e senha do app
-	void carregaNomeApp(const std::string& nomeAppTxt);
-	void carregaSenhaApp(const std::string& senhaAppTxt);
+	void carregaDados(const std::string& dadosTxtApp);
+	
 };
-
+	
